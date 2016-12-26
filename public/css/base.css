@@ -1,0 +1,161 @@
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+body{
+    background:#eee;
+}
+
+h1{
+    font-size:18px;
+    margin:0;
+}
+
+a{
+    text-decoration:none;
+}
+
+.fl{
+    float:left;
+}
+
+.fr{
+    float:right;
+    margin-top:6px;
+}
+
+.clearfix:after,
+.clearfix:before{
+    content:" ";
+    clear:both;
+    display:table;
+}
+
+.navbar{
+    background:#a10;
+    color:#fff;
+}
+.navbar form{
+    display:inline-table;
+}
+button.primary,
+#quick_ask button{
+    background:#a10;
+    color:#fff;
+    border:1px solid rgba(0,0,0,.2);
+    -webkit-box-shadow:0 1px 2px rgba(0,0,0,.1) ;
+    -moz-box-shadow:0 1px 2px rgba(0,0,0,.1);
+    box-shadow:0 1px 2px rgba(0,0,0,.1);
+}
+
+.navbar-item{
+    display:inline-table;
+    line-height:2;
+    padding:2px 4px;
+}
+
+.navbar-item:first-child{
+    margin-left:4px;
+}
+
+.navbar-item:last-child{
+    margin-right:4px;
+}
+
+.navbar .brand{
+    font-size:20px;
+    padding-top:0;
+    line-height:1;
+    font-weight:600;
+}
+
+.container{
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.container.signup,
+.container.login,
+.container.question-add,
+.container.reset-password{
+    width:400px;
+    margin-top:15px;
+}
+
+[ui-sref]{
+    cursor:pointer;
+}
+
+form,
+label{
+    display:block;
+}
+
+label{
+    margin:4px 0;
+}
+
+.input-error-set{
+    color:red;
+}
+
+.card{
+    display:block;
+    padding:10px 10px ;
+    border-radius:4px;
+    background:#fff;
+    box-shadow:0 1px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+input,
+textarea
+{
+    /*display:block;*/
+    width:100%;
+    padding:5px;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    outline:none; /*输入边框*/
+}
+
+.input-group{
+    margin-bottom:10px;
+}
+
+button{
+    border:1px solid rgba(0, 0, 0, 0.1);
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    background:#fff;
+    font-size:14px;
+    padding:5px;
+}
+button.primary{
+    background:#a10;
+    color:#fff;
+}
+button[disabled]{
+    background:#eee;
+    color:#000;
+}
+
+input, button{
+    margin:6px;
+}
+
+.home h1{
+
+}
+.hr{
+    display:block;
+    width:90%;
+    height:1px;
+    background:#eee;
+    margin:10px auto;
+}
